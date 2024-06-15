@@ -1,7 +1,7 @@
 services:
   mongo:
-    container_name: "gh-mongo-${TAG}"
-    image: "gh-${IMAGE}:${TAG}-${TAG_EXTRA}"
+    container_name: "parteincerta-mongo-${TAG}"
+    image: "parteincerta-${IMAGE}:${TAG}-${TAG_EXTRA}"
     build:
       args:
         IMAGE: ${IMAGE}
@@ -24,4 +24,4 @@ services:
 
 volumes:
   mongo:
-    name: gh-mongo
+    name: parteincerta-mongo

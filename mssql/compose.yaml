@@ -1,6 +1,6 @@
 services:
   mssql:
-    container_name: "gh-mssql-${TAG}"
+    container_name: "parteincerta-mssql-${TAG}"
     image: "${IMAGE}:${TAG}-${TAG_EXTRA}"
     init: true
     ports:
@@ -22,4 +22,4 @@ configs:
 
 volumes:
   mssql:
-    name: gh-mssql 
+    name: parteincerta-mssql 

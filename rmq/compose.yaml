@@ -1,6 +1,6 @@
 services:
   rmq:
-    container_name: "gh-rmq-${TAG}"
+    container_name: "parteincerta-rmq-${TAG}"
     image: "${IMAGE}:${TAG}-${TAG_EXTRA}"
     init: true
     ports:
@@ -15,4 +15,4 @@ services:
 
 volumes:
   rmq:
-    name: gh-rmq
+    name: parteincerta-rmq

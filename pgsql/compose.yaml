@@ -1,6 +1,6 @@
 services:
   pgsql:
-    container_name: "gh-pgsql-${TAG}"
+    container_name: "parteincerta-pgsql-${TAG}"
     image: "${IMAGE}:${TAG}-${TAG_EXTRA}"
     init: true
     ports:
@@ -14,4 +14,4 @@ services:
 
 volumes:
   pgsql:
-    name: gh-pgsql
+    name: parteincerta-pgsql
