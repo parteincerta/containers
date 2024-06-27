@@ -18,3 +18,7 @@
 - User credentials: `guest`, `guest`.
 - Port: `5672`.
 - Admin Port: `15672`.
+
+## Vertica
+- User credentials: `dbadmin`, `vertica`.
+- Port: `5433`, `5444`.
