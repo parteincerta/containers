@@ -19,6 +19,10 @@
 - Port: `5672`.
 - Admin Port: `15672`.
 
+## SAP HANA Express
+- User credentials: `SYSTEM`, `SAPHana1`.
+- Port: `39017`.
+
 ## Vertica
 - User credentials: `dbadmin`, `vertica`.
 - Port: `5433`, `5444`.
